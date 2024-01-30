@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 12' test cases in the current suite                                       
+                                        Test Method: 'tests.ProductTest.VerifyTheUserCanCheckOutProduct'                                        
+                                  Test Description: 'Verify total amount of order and add comment about order'                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/addCommentData.json"". @23-01-2024 17:26:14.0001 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/addCommentData.json"". @23-01-2024 17:26:14.0001 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:26:15.0918 PM
+[ReportManager] Type "thank you for order, the order is very good" into "By.xpath: //div[@class='form-group']//textarea". @23-01-2024 17:26:15.0979 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:26:16.0201 PM
+[ReportManager] Click "Place Order". @23-01-2024 17:26:16.0228 PM

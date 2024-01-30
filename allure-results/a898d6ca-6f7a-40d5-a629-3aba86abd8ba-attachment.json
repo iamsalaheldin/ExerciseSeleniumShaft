@@ -1,0 +1,17 @@
+{
+  "Name": "Ahmed",
+  "Password": "test300593test",
+  "Day": 23,
+  "Month": "July",
+  "Year":1995,
+  "FirstName": "Ahmed",
+  "LastName": "Salah",
+  "Company": "Rasan",
+  "Address1": "Cairo",
+  "Address2": "Ash Sharqia",
+  "Country": "United States",
+  "State": "Cairo",
+  "City": "New Cairo",
+  "Zipcode":14817,
+  "MobileNumber": 1185458965
+}

@@ -1,0 +1,48 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 12' test cases in the current suite                                        
+                                          Test Method: 'tests.ContactUsTest.VerifyTheUserCanContactUs'                                          
+                 Test Description: 'Contact Us Form Verify success message 'Success' details have been submitted successfully. '                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @23-01-2024 17:25:00.0228 PM
+[ReportManager] Initial URL: "about:blank" @23-01-2024 17:25:00.0249 PM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @23-01-2024 17:25:34.0810 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:34.0973 PM
+[ReportManager] Click " Contact us". @23-01-2024 17:25:35.0007 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0008 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0008 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0026 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0026 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0040 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0040 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0057 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"". @23-01-2024 17:25:35.0058 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:36.0648 PM
+[ReportManager] Type "Ahmed" into "Name". @23-01-2024 17:25:36.0699 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:36.0785 PM
+[ReportManager] Type "Test10001@gmail.com" into "Email". @23-01-2024 17:25:36.0825 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:36.0910 PM
+[ReportManager] Type "AutomationFramework" into "Subject". @23-01-2024 17:25:36.0957 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:37.0033 PM
+[ReportManager] Type "My name is Ahmed Salah and I'm a Software Test Automation Engineer." into "Your Message Here". @23-01-2024 17:25:37.0087 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:37.0161 PM
+[ReportManager] Type "C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft/src/test/resources/testDataFiles/uploadFile.txt" into "Choose File". @23-01-2024 17:25:37.0174 PM
+[ReportManager] Initial window size: (1552, 832) @23-01-2024 17:25:37.0191 PM
+[ReportManager] Window size after SWD: (1000, 882) @23-01-2024 17:25:37.0535 PM
+[ReportManager] Set window size "New screen size is now: (1000, 882)". @23-01-2024 17:25:37.0535 PM
+[ReportManager] Scroll to element "Submit". @23-01-2024 17:25:37.0583 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:37.0726 PM
+[ReportManager] Click "Submit". @23-01-2024 17:25:37.0762 PM
+[ReportManager] Alert is present @23-01-2024 17:25:37.0768 PM
+[ReportManager] Accept alert. @23-01-2024 17:25:37.0775 PM
+[ReportManager] Initial window size: (1000, 882) @23-01-2024 17:25:37.0796 PM
+[ReportManager] Window size after SWD Maximize: (1552, 832) @23-01-2024 17:25:37.0916 PM
+[ReportManager] Maximize window "New screen size is now: (1552, 832)". @23-01-2024 17:25:37.0917 PM
+[ReportManager] Get text "Success! Your details have been submitted successfully." from "By.xpath: //div[@class='status alert alert-success']". @23-01-2024 17:25:37.0987 PM
+[ReportManager] Expected "Success! Your details have been submitted successfully.", and actual "Success! Your details have been submitted successfully." @23-01-2024 17:25:37.0988 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Success! Your details have been submitted successfully.' for the 'text' attribute, element locator 'By.xpath: //div[@class='status alert alert-success']'" and Actual "Success! Your details have been submitted successfully.". Comparison Type "CONTAINS". Validation Type "POSITIVE". @23-01-2024 17:25:38.0427 PM
+[ReportManager] Assertion Passed: Error Contact Us @23-01-2024 17:25:38.0427 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023538286_VerifyTheUserCanContactUs_ValidateElementAttribute_passed' @23-01-2024 17:25:38.0443 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:38.0597 PM
+[ReportManager] Click " Home". @23-01-2024 17:25:38.0622 PM

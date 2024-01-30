@@ -1,0 +1,9 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 12' test cases in the current suite                                        
+                                               Test Method: 'tests.ProductTest.navigateToProducts'                                               
+                                               Test Description: 'Verify product page is visible'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:51.0081 PM
+[ReportManager] Click " Products". @23-01-2024 17:25:51.0107 PM

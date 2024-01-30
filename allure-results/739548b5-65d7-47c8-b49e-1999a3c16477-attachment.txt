@@ -1,0 +1,9 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 12' test cases in the current suite                                       
+                                             Test Method: 'tests.ProductTest.navigateToShoppingCart'                                             
+                                                Test Description: 'Verify product added to cart'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:26:13.0965 PM
+[ReportManager] Click "Proceed To Checkout". @23-01-2024 17:26:13.0995 PM

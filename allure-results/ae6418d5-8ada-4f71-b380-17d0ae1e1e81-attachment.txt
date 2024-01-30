@@ -1,0 +1,34 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 12' test cases in the current suite                                        
+                                  Test Method: 'tests.SignUpAndLoginTest.VerifyTheUserCanSignUpViaNameAndEmail'                                  
+                                       Test Description: 'Verify the user Can Sign UP via name and email.'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @23-01-2024 17:24:40.0780 PM
+[ReportManager] Initial URL: "https://www.automationexercise.com" @23-01-2024 17:24:40.0795 PM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @23-01-2024 17:24:45.0948 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:24:46.0138 PM
+[ReportManager] Click " Signup / Login". @23-01-2024 17:24:46.0181 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //h2[contains(.,'New User Signup!')]". @23-01-2024 17:24:47.0066 PM
+[ReportManager] Get attribute from "New User Signup!". @23-01-2024 17:24:47.0119 PM
+[ReportManager] Expected "null", and actual "null" @23-01-2024 17:24:47.0119 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //h2[contains(.,'New User Signup!')]'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @23-01-2024 17:24:48.0022 PM
+[ReportManager] Assertion Passed: Error Sign Up @23-01-2024 17:24:48.0022 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023487431_VerifyTheUserCanSignUpViaNameAndEmail_ValidateElementAttribute_passed' @23-01-2024 17:24:48.0031 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"". @23-01-2024 17:24:48.0031 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignUpData.json"". @23-01-2024 17:24:48.0031 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"". @23-01-2024 17:24:48.0046 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignUpData.json"". @23-01-2024 17:24:48.0046 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:48.0172 PM
+[ReportManager] Type "Ahmed" into "Name". @23-01-2024 17:24:48.0209 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:48.0292 PM
+[ReportManager] Type "asalaheldin1706023462081@gmail.com" into "Email Address". @23-01-2024 17:24:48.0344 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:24:48.0511 PM
+[ReportManager] Click "Signup". @23-01-2024 17:24:48.0542 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b". @23-01-2024 17:24:49.0609 PM
+[ReportManager] Get attribute from "By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b". @23-01-2024 17:24:49.0669 PM
+[ReportManager] Expected "null", and actual "null" @23-01-2024 17:24:49.0670 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @23-01-2024 17:24:50.0865 PM
+[ReportManager] Assertion Passed: Error Sign Up @23-01-2024 17:24:50.0866 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023490270_VerifyTheUserCanSignUpViaNameAndEmail_ValidateElementAttribute_passed' @23-01-2024 17:24:50.0870 PM

@@ -1,0 +1,882 @@
+[INFO ] 2024-01-23 17:24:17.639 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231211[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:17.654 [main] ReportManager - Checking for engine updates...
+[DEBUG] 2024-01-23 17:24:19.162 [main] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-01-23 17:24:19.203 [main] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-01-23 17:24:19.317 [main] DefaultClientConnection - Connection org.apache.http.impl.conn.DefaultClientConnection@2165d4ab closed
+[DEBUG] 2024-01-23 17:24:19.320 [main] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-01-23 17:24:19.557 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-01-23 17:24:19.559 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-01-23 17:24:19.559 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-01-23 17:24:19.559 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-01-23 17:24:19.560 [main] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-01-23 17:24:19.560 [main] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.2)[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.561 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> Accept: */*
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> Host: api.github.com
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.2)
+[DEBUG] 2024-01-23 17:24:19.562 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-01-23 17:24:19.876 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Date: Tue, 23 Jan 2024 15:24:20 GMT[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "ETag: W/"8a2190677faf81815ef1ba4163044cf0c4f4e787b58ce4ebd844db2585fccda6"[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "Last-Modified: Tue, 16 Jan 2024 07:50:53 GMT[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.878 [main] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.879 [main] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "X-RateLimit-Reset: 1706027060[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.880 [main] wire -  << "X-RateLimit-Used: 1[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.881 [main] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.881 [main] wire -  << "Content-Length: 888[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.881 [main] wire -  << "X-GitHub-Request-Id: 9CE7:1AFA41:4569E7F:4631B36:65AFDA24[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.881 [main] wire -  << "[\r][\n]"
+[DEBUG] 2024-01-23 17:24:19.882 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Server: GitHub.com
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Date: Tue, 23 Jan 2024 15:24:20 GMT
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << ETag: W/"8a2190677faf81815ef1ba4163044cf0c4f4e787b58ce4ebd844db2585fccda6"
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << Last-Modified: Tue, 16 Jan 2024 07:50:53 GMT
+[DEBUG] 2024-01-23 17:24:19.882 [main] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << X-Frame-Options: deny
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-01-23 17:24:19.883 [main] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << Content-Encoding: gzip
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << X-RateLimit-Remaining: 59
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << X-RateLimit-Reset: 1706027060
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << X-RateLimit-Used: 1
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-01-23 17:24:19.884 [main] headers - << Content-Length: 888
+[DEBUG] 2024-01-23 17:24:19.885 [main] headers - << X-GitHub-Request-Id: 9CE7:1AFA41:4569E7F:4631B36:65AFDA24
+[DEBUG] 2024-01-23 17:24:19.894 [main] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-01-23 17:24:19.895 [main] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x96]}k[0xdb]:[0x14][0xc6][0xbf][0x8a][0xf0][0x18][0x17]Bc[0xc7]N[0x9c][0xa6][0x86][0xb1][0xdb].[0xdd]VX[vW[0x18][0xec][0x85] [0xdb]'[0xb6][0xee][0x95]%![0xc9][0xc9][0xb2][0xd0][0xef]~[0x8f]"
+[DEBUG] 2024-01-23 17:24:19.895 [main] wire -  << "[0x1c]7[0xb4]fKG[0xbd][0x91][0x8c]#[0xfd][0xce]9[0x8f][0xce]y[0xe4][0xad]Wk[0xee]%^i[0xad]2I[0x10]P[0xc5][0xfc][0x82][0xd9][0xb2]N[0xfd]LV[0x81][0x6]%M[0xf0][0xa1][0xa4]K[0xfb][0xf6]}[0xf0][0xe1][0xed][0xe9][0xeb][0x9b][0xc5][0xf9][0xd5][0x9b][0x8b][0xab]s[0xfc][0x8b][0x3]5`[0x82]p|[0x1c][0xc6][0xb3][0xe8]x[0xec][0x1d]y[0xd4][0x18][0xb0]f[0xf1][0xfb][0x98][0xc1][0x8e][0x88][0xe8]ZqI[0xf3][0xe]z[0xf7][0xd2]<9[0xe5][0x16][0xbf]})h[0x5]G[0x9c][0xa6][0xc0]o1Vi+[0xde][0x89]tO[0x94][0xc3]rXZ[0x4]3?[0xf4][0xa3]Q4[0x19][0x85]a[0x8c]8[0x96]{[0xc9]^%[0x14][0xa9][0xb6][0xa5][0xd4]^[0xb2][0xf5][0xb8],[0x98]@[0xf5]w[0xf0]![0xcd],[0x93][0xc2]|N[0xa5][0xfd][0xda]n[0x9b][0x84][0xb3][0x93]Y4[0x8b][0x8e]<!sX8[0x92]w9[0xbf][0x9c][0xbe][0xaf]NFW[0xf3][0xf3][0xc9][0xf5]M[0xb1][0xb9][0x9e]_[0xbc]p[0xda][0xaf][0xa8][0xa5][0xba][0xab]}[0xf3][0xf2]N[0xa0][0xda][0x80][0xce][0xa4][0xb0] ls[0xbc]L[0x4]a<[0x9e][0xce]^[0xae]^L[0x90]P[0xe8][0x96][0xd1][0x84]q[0x9a][0x1f][0xea][\r][0x7]3[0xc1][0xc3][0xd4][0x9f][0xc7]g[0x98][0xfc][0xf3]x[0xfe][0xa8][0x88]T[0xa9][0xee]f[0xdc][0xb3][0x94][0x9c][0xcb]5r[0xbb]e<l[0xcb][0x83][0xa1][0x83]=d[0xf]d[0xa2][0xe8][0xf]D[0xc8]6[0x90][0xb6][0x4][0xd4][0x18]Kw}R0[0xf3]X[0xb7][0x1f]N[0xb5][0x1]lQDc[0xf1]l[0x1d][0xd2][0xe0]qi[0xe8][0xf6]yg,[0xf]C[[0x4]&[0xbb][0x16][0x98][0xe7][0xb6][0x99][0xe2][0x86]][0xa7]&[0xd3]L5][0xd6]G[0x90][0x7] [0x4]K]P[0xc1][0xbe][0xd3][0xde]`[0x4][0x19][0xe4]5[0xb6][0xd3]'[0xc1][0x6][0x80] Xa[0xab][0xf7]"[0xed][0x8][0xdb]@i[0xb6][0xa2][0xd9][0xc6][0xc9][0xa8]![0x3][0xb6][0xc2]3[0xea]O[0xef][0xa0][0x10]n7[\n]"
+[DEBUG] 2024-01-23 17:24:19.895 [main] wire -  << "p[0xf8][0xce][0xa4]u[0x7][0xc6],,h^9[0x93]XRn[0xe0][0xf6][0xbe][0xf][0xfc]s[0xbe][0xf8]o=[0xbf]~[0xf5][0x6]n[0xa6]fr[0xf1][0xee]jz[0xe6][0x0][0xb4]X87CH[0xc7][0x86][0xb0][0xb3][\n]"
+[DEBUG] 2024-01-23 17:24:19.895 [main] wire -  << "[0xb0][0xb][0x1c][0xfc][0x8a]YfJ\QQD#[0xf3][0x87][0xeb]s[0x8d][0xb6][0xdf][0x6]>[0xf2][0x94][0x86][0xd6][0xf2][0xf7][0xaf]2[\r][0xd4][0xa2][0xe][0x14]Wy[0xce][0xef][0x86][0xa3]p[0x18]NoF[0xc7]I<J[0xa2][0xe9]'D[0xab]:[0xe5][0x18][0xeb][0xa7][0xab][0xe2][0xb1][[0xd5][0xba]|[0xf2][0xf9][0xab]+@[0xa7][0x94]w[0xfd][0xf7][0xd7]/[0xa6]v[0xd7][0x84][0xbf]3[0xd5][0xb][0xdb][0xee][0xef]bS[0x99]o[0xb0][0xfa]g[0xcf][0xc8][0xc7][0x92][0xda][0xbf][0xc]yURQ@[0xfe]E[0xc][0xc8])[0xe7][0xb5][0x6][0x82][0xf5][0xa3][0xe3][0x82]&[0xff][0x92]Z0KJi[0xc9][0x92]}#[0xe9][0x86][0xfc]}Y[0xe3][0xb4].[0xe9]iA[0xab][\r]a[0x82][0xdc][0xdd][0xc3][0x8f]]7[0xaa][0xe6]<[0x8]'[0x93][0xd8][0xc5]9[0xab]+Ept|[0xaa]hV[0x82]_Ql{[0xdf]`[0xec]%[0xd3][0x90][0xdc]=[0xc]-[0x18]+[\n]"
+[DEBUG] 2024-01-23 17:24:19.895 [main] wire -  << "[0xb2][0xd4][0xb2]"c?[0xf2][0xc7][0xc4][0xca][0xe6]!nr[0xc9]A[0x81][0xc8])[0x1a][0xf8]S2[0x99][0xfd]<[0x13][0xc5]k[0xbc][0xe7]L[0xd2][0xe4]5[0xdc][0xa7][0xb3]{[0xfd][0x87][0xd2]9v[0xe9][0xa0][0xca][0x90][0x93]5E[0xd1]ww+[0x16][0x86][0xad]Oy[0xeb]U[0xbb]#[0x90]%M/e[0xc9][0xe0])e[0x9f]4q8-[0xb0][0xc2][0x82][0xa4],g[0x4][0x4]M9T[0xe8]<[0xfd][0xf9]q[0xb4][0x97][0x15]o[0x1e][0x92][0xc3]j[0xb8];&[0x10][0x19][0x3]C[\n]"
+[DEBUG] 2024-01-23 17:24:19.896 [main] wire -  << "-kE[0xd6][0xf8][0xc5]F"R[0xab][0x1c][0xe7][0xd1][0xf4]?[0xcc]8tQ[0xef][0xdb][0x7]ig[0x9f][0xa0][\r][0xa8][0xdf]P[0xd6][0xf8][0x8b]p[0xbf][0xc1][0xe0]56r;3[0xf8]54[0x18]$[0xbf]<[0x2][0xe8]c[0x8a]j[0xb8]7[0x90][0xa3][0xc8][0xf7][0xfd][0x8e][0xe9][0xb9]ch[0xae][0xbb]L[0xd6][0x2]}j|[0xfb]?[0xf9][0xc]u[0x6][0xf3][\n]"
+[DEBUG] 2024-01-23 17:24:19.896 [main] wire -  << "[0x0][0x0]"
+[DEBUG] 2024-01-23 17:24:19.896 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-01-23 17:24:19.974 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1f3f0d25
+[DEBUG] 2024-01-23 17:24:19.975 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2024-01-23 17:24:20.557 [main] ReportManager - ⚠️ You're using an outdated engine version "7.4.20231211" ⚠️
+Kindly upgrade to the latest one "8.1.20240115" to ensure the best experience.
+For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .
+[INFO ] 2024-01-23 17:24:20.558 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "target/engine_check"".
+[INFO ] 2024-01-23 17:24:20.561 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft\target\engine_check"".
+[INFO ] 2024-01-23 17:24:21.536 [main] ReportManager - Loaded OpenCV "opencv_java481".
+[INFO ] 2024-01-23 17:24:21.537 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-01-23 17:24:21.630 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-01-23 17:24:21.957 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-01-23 17:24:21.977 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-01-23 17:24:22.086 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:22.087 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:22.087 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[ERROR] 2024-01-23 17:24:22.114 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.116 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.119 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.119 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.121 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.123 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:22.124 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:22.125 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[ERROR] 2024-01-23 17:24:22.126 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.127 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.129 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.130 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.130 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.158 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-01-23 17:24:22.161 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ] 2024-01-23 17:24:22.163 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.163 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.164 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.164 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.164 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.165 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.167 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+[INFO ] 2024-01-23 17:24:22.171 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[INFO ] 2024-01-23 17:24:22.172 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.172 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.172 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.173 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.173 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.173 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.174 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.174 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.175 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.175 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.177 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:24:22.178 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:24:22.179 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[ERROR] 2024-01-23 17:24:22.179 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.180 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.181 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.182 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.182 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.183 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.183 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.183 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.183 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.183 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.184 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.184 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.184 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.184 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.185 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.185 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.186 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-01-23 17:24:22.186 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.186 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.186 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.186 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.187 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.187 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.187 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.187 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.188 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:24:22.190 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:24:22.190 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/loginData.json"".
+[ERROR] 2024-01-23 17:24:22.191 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.191 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.193 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.193 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.193 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.194 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/productName.json"".
+[INFO ] 2024-01-23 17:24:22.195 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/productName.json"".
+[INFO ] 2024-01-23 17:24:22.195 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/productName.json"".
+[ERROR] 2024-01-23 17:24:22.196 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.196 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.198 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.198 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.198 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.199 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/addCommentData.json"".
+[INFO ] 2024-01-23 17:24:22.199 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/addCommentData.json"".
+[INFO ] 2024-01-23 17:24:22.200 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/addCommentData.json"".
+[ERROR] 2024-01-23 17:24:22.200 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.201 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.202 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.203 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.203 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.204 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:24:22.204 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:24:22.205 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[ERROR] 2024-01-23 17:24:22.205 [main] AllureLifecycle - Could not start step: no test case running
+[ERROR] 2024-01-23 17:24:22.206 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-23 17:24:22.207 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2024-01-23 17:24:22.208 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2024-01-23 17:24:22.208 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2024-01-23 17:24:22.211 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.211 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.211 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.211 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.212 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.212 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.212 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.212 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.212 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.213 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.213 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.213 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.214 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.214 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.214 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.214 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.215 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.215 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.215 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.215 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.215 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.216 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.216 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.216 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.216 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.217 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.217 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.217 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.217 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.218 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.218 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.218 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.218 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.218 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.219 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.220 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.220 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.223 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ] 2024-01-23 17:24:22.223 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.224 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.227 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ] 2024-01-23 17:24:22.229 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.229 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.229 [main] Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.230 [main] Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ] 2024-01-23 17:24:22.237 [main] Utils - [TestNG] Running:
+  C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft\testng.xml
+
+[INFO ] 2024-01-23 17:24:22.262 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:22.346 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-01-23 17:24:22.354 [main] ReportManager - Initializing Properties...
+[DEBUG] 2024-01-23 17:24:22.391 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:57997<->140.82.121.6:443 closed
+[INFO ] 2024-01-23 17:24:22.421 [main] Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+[INFO ] 2024-01-23 17:24:22.428 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                        'tests.SignUpAndLoginTest.setup'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:22.436 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-01-23 17:24:22.446 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\asalaheldin\OneDri..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-23 17:24:22.446 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-01-23 17:24:22.447 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-01-23 17:24:29.116 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-01-23 17:24:29.154 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 12' test cases in the current suite                                        
+                                 Test Method: 'tests.SignUpAndLoginTest.VerifyThatHomePageIsVisibleSuccessfully'                                 
+                                        Test Description: 'Verify that home page is visible successfully'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:29.203 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-01-23 17:24:29.226 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-23 17:24:35.112 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-01-23 17:24:35.157 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //*[@id="header"]/div/div/div/div[1]/div/a/img".
+[INFO ] 2024-01-23 17:24:35.248 [main] ReportManager - Get attribute from "Website for automation practice".
+[INFO ] 2024-01-23 17:24:35.248 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-01-23 17:24:40.617 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //*[@id="header"]/div/div/div/div[1]/div/a/img'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:24:40.668 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023477939_VerifyThatHomePageIsVisibleSuccessfully_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:24:40.675 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyThatHomePageIsVisibleSuccessfully'
+[INFO ] 2024-01-23 17:24:40.676 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                      Finished Execution of Test Method: 'tests.SignUpAndLoginTest.VerifyThatHomePageIsVisibleSuccessfully'                      
+                                        Test Description: 'Verify that home page is visible successfully'                                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:40.764 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 12' test cases in the current suite                                        
+                                  Test Method: 'tests.SignUpAndLoginTest.VerifyTheUserCanSignUpViaNameAndEmail'                                  
+                                       Test Description: 'Verify the user Can Sign UP via name and email.'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:40.780 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-01-23 17:24:40.795 [main] ReportManager - Initial URL: "https://www.automationexercise.com"
+[INFO ] 2024-01-23 17:24:45.948 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-01-23 17:24:46.138 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:24:46.181 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2024-01-23 17:24:47.066 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //h2[contains(.,'New User Signup!')]".
+[INFO ] 2024-01-23 17:24:47.119 [main] ReportManager - Get attribute from "New User Signup!".
+[INFO ] 2024-01-23 17:24:47.119 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-01-23 17:24:48.022 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //h2[contains(.,'New User Signup!')]'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:24:48.031 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023487431_VerifyTheUserCanSignUpViaNameAndEmail_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:24:48.031 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:48.031 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:48.046 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:48.046 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/SignUpData.json"".
+[INFO ] 2024-01-23 17:24:48.172 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:48.209 [main] ReportManager - Type "Ahmed" into "Name".
+[INFO ] 2024-01-23 17:24:48.292 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:48.344 [main] ReportManager - Type "asalaheldin1706023462081@gmail.com" into "Email Address".
+[INFO ] 2024-01-23 17:24:48.511 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:24:48.542 [main] ReportManager - Click "Signup".
+[INFO ] 2024-01-23 17:24:49.610 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b".
+[INFO ] 2024-01-23 17:24:49.669 [main] ReportManager - Get attribute from "By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b".
+[INFO ] 2024-01-23 17:24:49.670 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-01-23 17:24:50.865 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //*[@id="form"]/div/div/div/div[1]/h2/b'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:24:50.870 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023490270_VerifyTheUserCanSignUpViaNameAndEmail_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:24:50.875 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanSignUpViaNameAndEmail'
+[INFO ] 2024-01-23 17:24:50.876 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                       Finished Execution of Test Method: 'tests.SignUpAndLoginTest.VerifyTheUserCanSignUpViaNameAndEmail'                       
+                                       Test Description: 'Verify the user Can Sign UP via name and email.'                                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:50.890 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 12' test cases in the current suite                                        
+                                         Test Method: 'tests.SignUpAndLoginTest.VerifyTheAccountCreated'                                         
+                                          Test Description: 'Verify that 'ACCOUNT CREATED!' is visible'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:50.892 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.892 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.915 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.916 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.939 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.940 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.952 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.952 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.967 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.967 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.998 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:50.998 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.015 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.015 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.031 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.031 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.048 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.048 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.078 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.078 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.093 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.093 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.109 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.109 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.125 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.125 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.156 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.156 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.172 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.172 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"".
+[INFO ] 2024-01-23 17:24:51.366 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:24:51.400 [main] ReportManager - Click "Mr.".
+[INFO ] 2024-01-23 17:24:51.490 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:51.527 [main] ReportManager - Type "Ahmed" into "Name *".
+[INFO ] 2024-01-23 17:24:51.623 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:51.662 [main] ReportManager - Type "test300593test" into "Password *".
+[INFO ] 2024-01-23 17:24:52.559 [main] ReportManager - Select "23" from "By.id: days".
+[INFO ] 2024-01-23 17:24:52.930 [main] ReportManager - Select "July" from "By.id: months".
+[INFO ] 2024-01-23 17:24:53.681 [main] ReportManager - Select "1995" from "By.id: years".
+[INFO ] 2024-01-23 17:24:53.769 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:53.806 [main] ReportManager - Type "Ahmed" into "First name *".
+[INFO ] 2024-01-23 17:24:53.903 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:53.940 [main] ReportManager - Type "Salah" into "Last name *".
+[INFO ] 2024-01-23 17:24:54.030 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.073 [main] ReportManager - Type "Rasan" into "Company".
+[INFO ] 2024-01-23 17:24:54.165 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.201 [main] ReportManager - Type "Cairo" into "Address * (Street address, P.O. Box, Company name, etc.)".
+[INFO ] 2024-01-23 17:24:54.286 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.326 [main] ReportManager - Type "Ash Sharqia" into "Address 2".
+[INFO ] 2024-01-23 17:24:54.561 [main] ReportManager - Select "United States" from "Country *".
+[INFO ] 2024-01-23 17:24:54.639 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.669 [main] ReportManager - Type "Cairo" into "State *".
+[INFO ] 2024-01-23 17:24:54.754 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.790 [main] ReportManager - Type "New Cairo" into "City * Zipcode *".
+[INFO ] 2024-01-23 17:24:54.870 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:54.890 [main] ReportManager - Type "14817" into "By.id: zipcode".
+[INFO ] 2024-01-23 17:24:54.997 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:24:55.032 [main] ReportManager - Type "1185458965" into "Mobile Number *".
+[INFO ] 2024-01-23 17:24:55.206 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:24:55.242 [main] ReportManager - Click "Create Account".
+[INFO ] 2024-01-23 17:24:56.932 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //b[contains(.,'Account Created')]".
+[INFO ] 2024-01-23 17:24:57.038 [main] ReportManager - Get attribute from "By.xpath: //b[contains(.,'Account Created')]".
+[INFO ] 2024-01-23 17:24:57.038 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-01-23 17:24:57.500 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //b[contains(.,'Account Created')]'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:24:57.500 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023497319_VerifyTheAccountCreated_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:24:57.674 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:24:57.703 [main] ReportManager - Click "Continue".
+[INFO ] 2024-01-23 17:24:57.707 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheAccountCreated'
+[INFO ] 2024-01-23 17:24:57.707 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.SignUpAndLoginTest.VerifyTheAccountCreated'                              
+                                          Test Description: 'Verify that 'ACCOUNT CREATED!' is visible'                                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:57.714 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                       'tests.SignUpAndLoginTest.tearDown'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                           'tests.ContactUsTest.setup'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\asalaheldin\OneDri..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-01-23 17:24:58.146 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-01-23 17:25:00.165 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-01-23 17:25:00.165 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 12' test cases in the current suite                                        
+                                          Test Method: 'tests.ContactUsTest.VerifyTheUserCanContactUs'                                          
+                 Test Description: 'Contact Us Form Verify success message 'Success' details have been submitted successfully. '                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:00.228 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-01-23 17:25:00.249 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-23 17:25:34.810 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-01-23 17:25:34.973 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:35.007 [main] ReportManager - Click " Contact us".
+[INFO ] 2024-01-23 17:25:35.008 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.008 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.026 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.026 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.040 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.040 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.057 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:35.058 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/ContactUsTestData.json"".
+[INFO ] 2024-01-23 17:25:36.648 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:36.699 [main] ReportManager - Type "Ahmed" into "Name".
+[INFO ] 2024-01-23 17:25:36.785 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:36.825 [main] ReportManager - Type "Test10001@gmail.com" into "Email".
+[INFO ] 2024-01-23 17:25:36.910 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:36.957 [main] ReportManager - Type "AutomationFramework" into "Subject".
+[INFO ] 2024-01-23 17:25:37.033 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:37.087 [main] ReportManager - Type "My name is Ahmed Salah and I'm a Software Test Automation Engineer." into "Your Message Here".
+[INFO ] 2024-01-23 17:25:37.161 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:37.174 [main] ReportManager - Type "C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft/src/test/resources/testDataFiles/uploadFile.txt" into "Choose File".
+[INFO ] 2024-01-23 17:25:37.191 [main] ReportManager - Initial window size: (1552, 832)
+[INFO ] 2024-01-23 17:25:37.535 [main] ReportManager - Window size after SWD: (1000, 882)
+[INFO ] 2024-01-23 17:25:37.535 [main] ReportManager - Set window size "New screen size is now: (1000, 882)".
+[INFO ] 2024-01-23 17:25:37.583 [main] ReportManager - Scroll to element "Submit".
+[INFO ] 2024-01-23 17:25:37.726 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:37.762 [main] ReportManager - Click "Submit".
+[INFO ] 2024-01-23 17:25:37.769 [main] ReportManager - Alert is present
+[INFO ] 2024-01-23 17:25:37.775 [main] ReportManager - Accept alert.
+[INFO ] 2024-01-23 17:25:37.796 [main] ReportManager - Initial window size: (1000, 882)
+[INFO ] 2024-01-23 17:25:37.916 [main] ReportManager - Window size after SWD Maximize: (1552, 832)
+[INFO ] 2024-01-23 17:25:37.917 [main] ReportManager - Maximize window "New screen size is now: (1552, 832)".
+[INFO ] 2024-01-23 17:25:37.987 [main] ReportManager - Get text "Success! Your details have been submitted successfully." from "By.xpath: //div[@class='status alert alert-success']".
+[INFO ] 2024-01-23 17:25:37.988 [main] ReportManager - Expected "Success! Your details have been submitted successfully.", and actual "Success! Your details have been submitted successfully."
+[INFO ] 2024-01-23 17:25:38.427 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Success! Your details have been submitted successfully.' for the 'text' attribute, element locator 'By.xpath: //div[@class='status alert alert-success']'" and Actual "Success! Your details have been submitted successfully.". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:25:38.443 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023538286_VerifyTheUserCanContactUs_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:25:38.597 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:38.622 [main] ReportManager - Click " Home".
+[INFO ] 2024-01-23 17:25:38.625 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanContactUs'
+[INFO ] 2024-01-23 17:25:38.625 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.ContactUsTest.VerifyTheUserCanContactUs'                               
+                 Test Description: 'Contact Us Form Verify success message 'Success' details have been submitted successfully. '                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:38.630 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                         'tests.ContactUsTest.tearDown'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:38.992 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-01-23 17:25:38.992 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[INFO ] 2024-01-23 17:25:38.997 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                            'tests.ProductTest.setup'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:38.997 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-01-23 17:25:38.997 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\asalaheldin\OneDri..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-23 17:25:38.997 [main] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2024-01-23 17:25:38.997 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-01-23 17:25:40.890 [main] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2024-01-23 17:25:40.890 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 12' test cases in the current suite                                        
+                                    Test Method: 'tests.ProductTest.VerifyTheUserCanLoginByEmailAndPassword'                                    
+                                              Test Description: 'Verify New User login is visible'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:40.953 [main] ReportManager - Target URL: "https://www.automationexercise.com/"
+[INFO ] 2024-01-23 17:25:40.973 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-23 17:25:44.148 [main] ReportManager - Navigate to url "https://www.automationexercise.com/".
+[INFO ] 2024-01-23 17:25:44.318 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:44.348 [main] ReportManager - Click " Signup / Login".
+[INFO ] 2024-01-23 17:25:44.349 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:25:44.349 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:25:44.364 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:25:44.365 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/loginData.json"".
+[INFO ] 2024-01-23 17:25:46.318 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:46.353 [main] ReportManager - Type "test371654@gmail.com" into "Email Address".
+[INFO ] 2024-01-23 17:25:46.420 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:46.465 [main] ReportManager - Type "test371654test" into "Password".
+[INFO ] 2024-01-23 17:25:46.624 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:46.648 [main] ReportManager - Click "Login".
+[INFO ] 2024-01-23 17:25:46.651 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanLoginByEmailAndPassword'
+[INFO ] 2024-01-23 17:25:46.651 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.ProductTest.VerifyTheUserCanLoginByEmailAndPassword'                         
+                                              Test Description: 'Verify New User login is visible'                                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:46.661 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 12' test cases in the current suite                                        
+                                               Test Method: 'tests.ProductTest.navigateToProducts'                                               
+                                               Test Description: 'Verify product page is visible'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:51.081 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:51.107 [main] ReportManager - Click " Products".
+[INFO ] 2024-01-23 17:25:51.108 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: navigateToProducts'
+[INFO ] 2024-01-23 17:25:51.110 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                    Finished Execution of Test Method: 'tests.ProductTest.navigateToProducts'                                    
+                                               Test Description: 'Verify product page is visible'                                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:51.118 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 12' test cases in the current suite                                        
+                                         Test Method: 'tests.ProductTest.VerifyTheUserCanSearchProduct'                                         
+                                   Test Description: 'Verify products appear when user Click on search icon.'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:51.119 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/productName.json"".
+[INFO ] 2024-01-23 17:25:51.119 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/productName.json"".
+[INFO ] 2024-01-23 17:25:53.868 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:25:53.901 [main] ReportManager - Type "pink" into "Search Product".
+[INFO ] 2024-01-23 17:25:54.050 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:25:54.079 [main] ReportManager - Click "".
+[INFO ] 2024-01-23 17:25:54.082 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanSearchProduct'
+[INFO ] 2024-01-23 17:25:54.082 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.ProductTest.VerifyTheUserCanSearchProduct'                              
+                                   Test Description: 'Verify products appear when user Click on search icon.'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:25:54.091 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 12' test cases in the current suite                                        
+                                   Test Method: 'tests.ProductTest.VerifyTheUserCanMakeHoverAndChooseProduct'                                   
+                             Test Description: 'Verify user choose product you want and navigate to product details'                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:07.561 [main] ReportManager - Scroll to element "ecommerce website products".
+[INFO ] 2024-01-23 17:26:07.746 [main] ReportManager - Hover over "ecommerce website products".
+[INFO ] 2024-01-23 17:26:07.796 [main] ReportManager - Scroll to element "ecommerce website products".
+[INFO ] 2024-01-23 17:26:07.985 [main] ReportManager - Hover over "ecommerce website products".
+[INFO ] 2024-01-23 17:26:08.033 [main] ReportManager - Scroll to element "ecommerce website products".
+[INFO ] 2024-01-23 17:26:08.209 [main] ReportManager - Hover over "ecommerce website products".
+[INFO ] 2024-01-23 17:26:08.371 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:08.404 [main] ReportManager - Click " View Product".
+[INFO ] 2024-01-23 17:26:08.408 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanMakeHoverAndChooseProduct'
+[INFO ] 2024-01-23 17:26:08.408 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'tests.ProductTest.VerifyTheUserCanMakeHoverAndChooseProduct'                        
+                             Test Description: 'Verify user choose product you want and navigate to product details'                             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:08.415 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 12' test cases in the current suite                                        
+                                        Test Method: 'tests.ProductTest.VerifyTheUserCanAddProductToCart'                                        
+                                     Test Description: 'navigate to Product Details and add product to cart'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:10.965 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:11.017 [main] ReportManager - Click " Add to cart".
+[INFO ] 2024-01-23 17:26:11.618 [main] ReportManager - Get text "Added!" from "Added!".
+[INFO ] 2024-01-23 17:26:11.618 [main] ReportManager - Expected "Added!", and actual "Added!"
+[INFO ] 2024-01-23 17:26:12.200 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Added!' for the 'text' attribute, element locator 'By.xpath: //*[@id='cartModal']/div/div/div[1]/h4'" and Actual "Added!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:26:12.212 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023571964_VerifyTheUserCanAddProductToCart_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:26:12.365 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:12.390 [main] ReportManager - Click "By.xpath: //*[@id='cartModal']/div/div/div[2]/p[2]/a/u".
+[INFO ] 2024-01-23 17:26:12.395 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanAddProductToCart'
+[INFO ] 2024-01-23 17:26:12.396 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'tests.ProductTest.VerifyTheUserCanAddProductToCart'                             
+                                     Test Description: 'navigate to Product Details and add product to cart'                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:12.402 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 12' test cases in the current suite                                       
+                                             Test Method: 'tests.ProductTest.navigateToShoppingCart'                                             
+                                                Test Description: 'Verify product added to cart'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:13.965 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:13.995 [main] ReportManager - Click "Proceed To Checkout".
+[INFO ] 2024-01-23 17:26:13.997 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: navigateToShoppingCart'
+[INFO ] 2024-01-23 17:26:13.997 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Finished Execution of Test Method: 'tests.ProductTest.navigateToShoppingCart'                                  
+                                                Test Description: 'Verify product added to cart'                                                
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:14.001 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 12' test cases in the current suite                                       
+                                        Test Method: 'tests.ProductTest.VerifyTheUserCanCheckOutProduct'                                        
+                                  Test Description: 'Verify total amount of order and add comment about order'                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:14.001 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/addCommentData.json"".
+[INFO ] 2024-01-23 17:26:14.001 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/addCommentData.json"".
+[INFO ] 2024-01-23 17:26:15.918 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:15.979 [main] ReportManager - Type "thank you for order, the order is very good" into "By.xpath: //div[@class='form-group']//textarea".
+[INFO ] 2024-01-23 17:26:16.201 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:16.228 [main] ReportManager - Click "Place Order".
+[INFO ] 2024-01-23 17:26:16.232 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheUserCanCheckOutProduct'
+[INFO ] 2024-01-23 17:26:16.233 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'tests.ProductTest.VerifyTheUserCanCheckOutProduct'                             
+                                  Test Description: 'Verify total amount of order and add comment about order'                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:16.240 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 12' test cases in the current suite                                       
+                                         Test Method: 'tests.ProductTest.VerifyTheOrderHasBeenconfirmed'                                         
+                                             Test Description: 'Verify the order has been confirmed'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:16.241 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.241 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.253 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.254 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.266 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.267 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.276 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.276 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.285 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:16.286 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/paymentData.json"".
+[INFO ] 2024-01-23 17:26:17.825 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:17.857 [main] ReportManager - Type "Ahmed" into "By.xpath: //input[@name='name_on_card']".
+[INFO ] 2024-01-23 17:26:17.944 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:17.981 [main] ReportManager - Type "1237723414659" into "By.xpath: //input[@name='card_number']".
+[INFO ] 2024-01-23 17:26:18.080 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:18.118 [main] ReportManager - Type "579" into "ex. 311".
+[INFO ] 2024-01-23 17:26:18.194 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:18.225 [main] ReportManager - Type "July" into "MM".
+[INFO ] 2024-01-23 17:26:18.310 [main] ReportManager - text cleared Using Native Clear
+[INFO ] 2024-01-23 17:26:18.340 [main] ReportManager - Type "2024" into "YYYY".
+[INFO ] 2024-01-23 17:26:18.503 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-23 17:26:18.536 [main] ReportManager - Click "Pay and Confirm Order".
+[INFO ] 2024-01-23 17:26:21.284 [main] ReportManager - Get text "Congratulations! Your order has been confirmed!" from "By.xpath: //p[text()='Congratulations! Your order has been confirmed!']".
+[INFO ] 2024-01-23 17:26:21.284 [main] ReportManager - Expected "Congratulations! Your order has been confirmed!", and actual "Congratulations! Your order has been confirmed!"
+[INFO ] 2024-01-23 17:26:21.638 [main] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Congratulations! Your order has been confirmed!' for the 'text' attribute, element locator 'By.xpath: //p[text()='Congratulations! Your order has been confirmed!']'" and Actual "Congratulations! Your order has been confirmed!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-01-23 17:26:21.638 [main] ReportManager - Successfully created attachment 'Screenshot - 1706023581497_VerifyTheOrderHasBeenconfirmed_ValidateElementAttribute_passed'
+[INFO ] 2024-01-23 17:26:21.638 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyTheOrderHasBeenconfirmed'
+[INFO ] 2024-01-23 17:26:21.638 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.ProductTest.VerifyTheOrderHasBeenconfirmed'                              
+                                             Test Description: 'Verify the order has been confirmed'                                             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:21.648 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                          'tests.ProductTest.tearDown'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - Successfully created attachment 'Browser Action Test Data - Close current window - Actual Value'
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
+[INFO ] 2024-01-23 17:26:22.002 [main] ReportManager - File Action "ReadFileAsByteArray" successfully performed. With the following test data "File Path: "C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft\target\logs\log4j.log"".
+[INFO ] 2024-01-23 17:26:22.008 [main] ReportManager - File Action "DeleteFile" successfully performed. With the following test data "Target File Path: "target/logs/log4j.log", file was not deleted.".
+[INFO ] 2024-01-23 17:26:22.008 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20240123-172622'
+[DEBUG] 2024-01-23 17:26:22.040 [main] cache - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.040 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.044 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.044 [main] cache - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.044 [main] cache - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+[DEBUG] 2024-01-23 17:26:22.112 [main] cache - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.112 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.112 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.112 [main] cache - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.112 [main] cache - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+[DEBUG] 2024-01-23 17:26:22.206 [main] cache - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.206 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.206 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.206 [main] cache - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.206 [main] cache - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.222 [main] cache - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.237 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.249 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.249 [main] cache - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.249 [main] cache - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+[DEBUG] 2024-01-23 17:26:22.253 [main] cache - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.253 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.253 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.253 [main] cache - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.253 [main] cache - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.269 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.285 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.285 [main] cache - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.285 [main] cache - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+[DEBUG] 2024-01-23 17:26:22.300 [main] cache - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/asalaheldin/.m2/repository/com/aventstack/extentreports/5.1.0/extentreports-5.1.0.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+[INFO ] 2024-01-23 17:26:22.458 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "allure-results/cucumberReport.html"".
+[INFO ] 2024-01-23 17:26:22.458 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2024-01-23 17:26:22.458 [main] ReportManager - Driver is already closed.
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.SignUpAndLoginTest.VerifyTheAccountCreated
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify that 'ACCOUNT CREATED!' is visible
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheUserCanMakeHoverAndChooseProduct
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify user choose product you want and navigate to product details
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.navigateToProducts
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify product page is visible
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheOrderHasBeenconfirmed
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify the order has been confirmed
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheUserCanCheckOutProduct
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify total amount of order and add comment about order
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheUserCanSearchProduct
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify products appear when user Click on search icon.
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheUserCanAddProductToCart
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         navigate to Product Details and add product to cart
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.SignUpAndLoginTest.VerifyThatHomePageIsVisibleSuccessfully
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify that home page is visible successfully
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.navigateToShoppingCart
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify product added to cart
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.SignUpAndLoginTest.VerifyTheUserCanSignUpViaNameAndEmail
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify the user Can Sign UP via name and email.
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ProductTest.VerifyTheUserCanLoginByEmailAndPassword
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Verify New User login is visible
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - PASSED: tests.ContactUsTest.VerifyTheUserCanContactUs
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -         Contact Us Form Verify success message 'Success' details have been submitted successfully. 
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - ===============================================
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -     AutomationExercise
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager -     Tests run: 12, Failures: 0, Skips: 0
+[INFO ] 2024-01-23 17:26:22.489 [main] ReportManager - ===============================================
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - ===============================================
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - All Test Suite
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - Total tests run: 12, Passes: 12, Failures: 0, Skips: 0
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - ===============================================
+[INFO ] 2024-01-23 17:26:22.505 [main] Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@35c395cc: 0 ms
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "execution-summary/ExecutionSummaryReport_23-01-2024_17-26-22-0505-PM.html"".
+[INFO ] 2024-01-23 17:26:22.505 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "C:\Users\asalaheldin\OneDrive - SA - Rasan Information Technology Co\Desktop\Eclipse workspace\ExerciseSeleniumShaft\execution-summary\ExecutionSummaryReport_23-01-2024_17-26-22-0505-PM.html"".
+[INFO ] 2024-01-23 17:26:22.520 [main] ReportManager - Executing: ".\execution-summary/ExecutionSummaryReport_*.html" locally.
+[INFO ] 2024-01-23 17:26:23.453 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\execution-summary/ExecutionSummaryReport_*.html" | Exit Status: "0"".
+[INFO ] 2024-01-23 17:26:23.453 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         Test Execution Summary Results                                                         
+                                             Total Cases: 12 --> Passed: 12 | Failed: 0 | Skipped: 0                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-23 17:26:23.453 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.7.4.20231211[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m

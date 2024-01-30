@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 12' test cases in the current suite                                        
+                                        Test Method: 'tests.ProductTest.VerifyTheUserCanAddProductToCart'                                        
+                                     Test Description: 'navigate to Product Details and add product to cart'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:26:10.0965 PM
+[ReportManager] Click " Add to cart". @23-01-2024 17:26:11.0016 PM
+[ReportManager] Get text "Added!" from "Added!". @23-01-2024 17:26:11.0618 PM
+[ReportManager] Expected "Added!", and actual "Added!" @23-01-2024 17:26:11.0618 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'Added!' for the 'text' attribute, element locator 'By.xpath: //*[@id='cartModal']/div/div/div[1]/h4'" and Actual "Added!". Comparison Type "CONTAINS". Validation Type "POSITIVE". @23-01-2024 17:26:12.0200 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //*[@id='cartModal']/div/div/div[1]/h4" text contains "Added!". @23-01-2024 17:26:12.0200 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023571964_VerifyTheUserCanAddProductToCart_ValidateElementAttribute_passed' @23-01-2024 17:26:12.0212 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:26:12.0364 PM
+[ReportManager] Click "By.xpath: //*[@id='cartModal']/div/div/div[2]/p[2]/a/u". @23-01-2024 17:26:12.0390 PM

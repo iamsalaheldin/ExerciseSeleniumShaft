@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 12' test cases in the current suite                                        
+                                         Test Method: 'tests.ProductTest.VerifyTheUserCanSearchProduct'                                         
+                                   Test Description: 'Verify products appear when user Click on search icon.'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/productName.json"". @23-01-2024 17:25:51.0119 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/productName.json"". @23-01-2024 17:25:51.0119 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:53.0868 PM
+[ReportManager] Type "pink" into "Search Product". @23-01-2024 17:25:53.0900 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:54.0050 PM
+[ReportManager] Click "". @23-01-2024 17:25:54.0079 PM

@@ -1,0 +1,75 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 12' test cases in the current suite                                        
+                                         Test Method: 'tests.SignUpAndLoginTest.VerifyTheAccountCreated'                                         
+                                          Test Description: 'Verify that 'ACCOUNT CREATED!' is visible'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0891 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0892 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0915 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0916 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0939 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0940 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0952 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0952 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0967 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0967 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0998 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:50.0998 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0015 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0015 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0031 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0031 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0048 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0048 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0078 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0078 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0093 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0093 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0109 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0109 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0125 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0125 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0141 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0156 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0172 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/AccountDetailsTestData.json"". @23-01-2024 17:24:51.0172 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:24:51.0366 PM
+[ReportManager] Click "Mr.". @23-01-2024 17:24:51.0400 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:51.0490 PM
+[ReportManager] Type "Ahmed" into "Name *". @23-01-2024 17:24:51.0527 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:51.0623 PM
+[ReportManager] Type "test300593test" into "Password *". @23-01-2024 17:24:51.0662 PM
+[ReportManager] Select "23" from "By.id: days". @23-01-2024 17:24:52.0559 PM
+[ReportManager] Select "July" from "By.id: months". @23-01-2024 17:24:52.0930 PM
+[ReportManager] Select "1995" from "By.id: years". @23-01-2024 17:24:53.0681 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:53.0769 PM
+[ReportManager] Type "Ahmed" into "First name *". @23-01-2024 17:24:53.0806 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:53.0903 PM
+[ReportManager] Type "Salah" into "Last name *". @23-01-2024 17:24:53.0940 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0030 PM
+[ReportManager] Type "Rasan" into "Company". @23-01-2024 17:24:54.0073 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0165 PM
+[ReportManager] Type "Cairo" into "Address * (Street address, P.O. Box, Company name, etc.)". @23-01-2024 17:24:54.0201 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0286 PM
+[ReportManager] Type "Ash Sharqia" into "Address 2". @23-01-2024 17:24:54.0326 PM
+[ReportManager] Select "United States" from "Country *". @23-01-2024 17:24:54.0561 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0639 PM
+[ReportManager] Type "Cairo" into "State *". @23-01-2024 17:24:54.0669 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0754 PM
+[ReportManager] Type "New Cairo" into "City * Zipcode *". @23-01-2024 17:24:54.0790 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0870 PM
+[ReportManager] Type "14817" into "By.id: zipcode". @23-01-2024 17:24:54.0890 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:24:54.0997 PM
+[ReportManager] Type "1185458965" into "Mobile Number *". @23-01-2024 17:24:55.0031 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:24:55.0206 PM
+[ReportManager] Click "Create Account". @23-01-2024 17:24:55.0242 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //b[contains(.,'Account Created')]". @23-01-2024 17:24:56.0932 PM
+[ReportManager] Get attribute from "By.xpath: //b[contains(.,'Account Created')]". @23-01-2024 17:24:57.0038 PM
+[ReportManager] Expected "null", and actual "null" @23-01-2024 17:24:57.0038 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //b[contains(.,'Account Created')]'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @23-01-2024 17:24:57.0500 PM
+[ReportManager] Assertion Passed: erify that 'ACCOUNT CREATED!' is visible @23-01-2024 17:24:57.0500 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023497319_VerifyTheAccountCreated_ValidateElementAttribute_passed' @23-01-2024 17:24:57.0500 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:24:57.0674 PM
+[ReportManager] Click "Continue". @23-01-2024 17:24:57.0703 PM

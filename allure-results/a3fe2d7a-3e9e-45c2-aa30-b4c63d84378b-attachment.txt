@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 12' test cases in the current suite                                        
+                                 Test Method: 'tests.SignUpAndLoginTest.VerifyThatHomePageIsVisibleSuccessfully'                                 
+                                        Test Description: 'Verify that home page is visible successfully'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @23-01-2024 17:24:29.0202 PM
+[ReportManager] Initial URL: "about:blank" @23-01-2024 17:24:29.0226 PM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @23-01-2024 17:24:35.0106 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //*[@id="header"]/div/div/div/div[1]/div/a/img". @23-01-2024 17:24:35.0157 PM
+[ReportManager] Get attribute from "Website for automation practice". @23-01-2024 17:24:35.0248 PM
+[ReportManager] Expected "null", and actual "null" @23-01-2024 17:24:35.0248 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //*[@id="header"]/div/div/div/div[1]/div/a/img'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @23-01-2024 17:24:40.0617 PM
+[ReportManager] Assertion Passed: Verify that home page is visible successfully @23-01-2024 17:24:40.0617 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1706023477939_VerifyThatHomePageIsVisibleSuccessfully_ValidateElementAttribute_passed' @23-01-2024 17:24:40.0668 PM

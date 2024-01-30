@@ -1,0 +1,15 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 12' test cases in the current suite                                        
+                                   Test Method: 'tests.ProductTest.VerifyTheUserCanMakeHoverAndChooseProduct'                                   
+                             Test Description: 'Verify user choose product you want and navigate to product details'                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Scroll to element "ecommerce website products". @23-01-2024 17:26:07.0561 PM
+[ReportManager] Hover over "ecommerce website products". @23-01-2024 17:26:07.0746 PM
+[ReportManager] Scroll to element "ecommerce website products". @23-01-2024 17:26:07.0796 PM
+[ReportManager] Hover over "ecommerce website products". @23-01-2024 17:26:07.0985 PM
+[ReportManager] Scroll to element "ecommerce website products". @23-01-2024 17:26:08.0033 PM
+[ReportManager] Hover over "ecommerce website products". @23-01-2024 17:26:08.0209 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:26:08.0371 PM
+[ReportManager] Click " View Product". @23-01-2024 17:26:08.0403 PM

@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 12' test cases in the current suite                                        
+                                    Test Method: 'tests.ProductTest.VerifyTheUserCanLoginByEmailAndPassword'                                    
+                                              Test Description: 'Verify New User login is visible'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://www.automationexercise.com/" @23-01-2024 17:25:40.0953 PM
+[ReportManager] Initial URL: "about:blank" @23-01-2024 17:25:40.0973 PM
+[ReportManager] Navigate to url "https://www.automationexercise.com/". @23-01-2024 17:25:44.0148 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:44.0318 PM
+[ReportManager] Click " Signup / Login". @23-01-2024 17:25:44.0348 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"". @23-01-2024 17:25:44.0349 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/loginData.json"". @23-01-2024 17:25:44.0349 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/loginData.json"". @23-01-2024 17:25:44.0364 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/loginData.json"". @23-01-2024 17:25:44.0365 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:46.0318 PM
+[ReportManager] Type "test371654@gmail.com" into "Email Address". @23-01-2024 17:25:46.0353 PM
+[ReportManager] text cleared Using Native Clear @23-01-2024 17:25:46.0420 PM
+[ReportManager] Type "test371654test" into "Password". @23-01-2024 17:25:46.0465 PM
+[ReportManager] Moved the mouse to the middle of the element. @23-01-2024 17:25:46.0624 PM
+[ReportManager] Click "Login". @23-01-2024 17:25:46.0648 PM
